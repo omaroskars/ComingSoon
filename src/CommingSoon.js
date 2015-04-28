@@ -14,17 +14,3 @@ angular.module('CommingSoon', ['ngRoute']).config(['$routeProvider',
 				redirectTo: '/home'
 			});
 	}]);
-
-'use strict';
-angular.module('CommingSoon').controller('HomeController', ['$scope',
-function ($scope) {
-	
-}]);
-
-angular.module('CommingSoon').controller('LoginController', ['$scope', 
-function ($scope) {
-	$scope.username = "";
-	$scope.password = "";
-
-	
-}]);
