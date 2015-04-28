@@ -1,0 +1,35 @@
+{
+  "name": "ChatRoom",
+  "version": "0.0.1",
+  "homepage": "https://github.com/omaroskars",
+  "authors": [
+    "Omar Oskarsson<omaroskars15@gmail.com>"
+  ],
+  "description": "Movie trailer web application",
+  "main": "js/app.js",
+  "moduleType": [
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "angularJS",
+    "Comming",
+    "node"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.3.13",
+    "angular-route": "~1.3.13",
+    "jquery": "~2.1.3",
+    "bootstrap": "~3.3.2",
+    "toastr": "~2.1.0"
+  }
+}
